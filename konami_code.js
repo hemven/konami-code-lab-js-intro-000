@@ -21,9 +21,7 @@ function init() {
   document.body.addEventListener("keydown", (e) => {
     const key = e.key
 
-    if (codes[counter] === key) {
-      ++counter
-    }
+    counter = (codes[counter] === key) ? ++counter : 0
 
     if (counter === codes.length) {
       window.alert("heck yeah, konami");
