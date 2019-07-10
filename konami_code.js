@@ -21,7 +21,7 @@ function init() {
   document.body.addEventListener("keydown", (e) => {
     const key = e.key
 
-    if counter = (codes[counter] === key) {
+    if (counter = (codes[counter] === key)) {
       ++counter
     }
 
